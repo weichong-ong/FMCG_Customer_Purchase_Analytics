@@ -1,4 +1,4 @@
-# Customer Analytics Project Overview
+# Customer Analytics and Purchase Analytics Project Overview
 
 ## Data Preprocessing
 Detecting and removing outliers using z-score. Standardizing data using StandardScaler
