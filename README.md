@@ -1,17 +1,18 @@
 # Customer Analytics and Purchase Analytics Project Overview
 
-* dfds
-* dfsdf
+* Dividing a population of customers into groups that share similar characteristics using K-means clustering techniques combined with principal components analysis
+* Grouping the customer by segments to gain insight into the purchase behavior
 
 ## Data Preprocessing
-Detecting and removing outliers using z-score. Standardizing data using StandardScaler
+#### Standardizing data using StandardScaler
 
 ## Customer segmentation
-#### Cluster Analysis
-Dividing a population of customers into groups that share similar characteristics using K-means clustering techniques combined with principal components analysis
-#### Dimensionality Reduction
+#### Cluster Analysis (K-means)
+#### Dimensionality Reduction (PCA)
 
 ## Descriptive analysis
-Grouping the customer by segments to gain insight into the purchase behavior
 
 ## Elasticity Modeling
+#### Price Elasticity of Purchase Probability
+#### Price Elasticity of Brand Choice Probability
+#### Price Elasticity of Purchase Quantity
