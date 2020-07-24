@@ -1,5 +1,8 @@
 # Customer Analytics and Purchase Analytics Project Overview
 
+* dfds
+* dfsdf
+
 ## Data Preprocessing
 Detecting and removing outliers using z-score. Standardizing data using StandardScaler
 
