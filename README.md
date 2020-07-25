@@ -10,7 +10,7 @@ Purchase Analytics: The second part of the course explores both the descriptive 
 ## Code and Resources used
 Python Version: 
 Packages: pandas, numpy, sklearn, scipy, matplotlib, seaborn, pickle
-
+Modules: dendrogram, linkage, KMeans, PCA
 ## Customer Analytics
 ### Exploration Data Analysis
 ### Customer segmentation
