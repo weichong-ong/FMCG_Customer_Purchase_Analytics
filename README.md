@@ -1,4 +1,15 @@
 # Customer Analytics and Purchase Analytics Project Overview
+
+Make sure all the files in the local disk are up-to-date: (pull all the file from master)
+		git pull
+
+Every time starts a new task: create new branch for this particular task (instead of push all the file to master)
+		git checkout -b branch_name
+
+git add .
+git commit -m “comments”
+git push (git push —set-upstream origin branch_name)
+
 Customer Analytics: The first part of the course focuses on how to perform customer segmentation, using a hands-on approach. It involves the application of hierarchical and flat clustering techniques for dividing customers into groups. It also features applying the Principal Components Analysis (PCA) to reduce the dimensionality of the problem, as well as combining PCA and K-means for an even more professional customer segmentation.
 
 Purchase Analytics: The second part of the course explores both the descriptive and predictive analysis of the purchase behaviour of customers, including models for purchase incidence, brand choice, and purchase quantity. Not only that, but it also covers the application of state-of-the-art deep learning techniques to make predictions using real-world data.
