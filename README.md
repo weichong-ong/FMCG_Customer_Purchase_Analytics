@@ -8,8 +8,8 @@ Purchase Analytics: The second part of the course explores both the descriptive 
 * Grouping the customer by segments to gain insight into the purchase behavior
 
 ## Code and Resources used
-**Python Version:** 3.8
-**Packages:** pandas, numpy, sklearn, scipy, matplotlib, seaborn, pickle
+**Python Version:** 3.8   
+**Packages:** pandas, numpy, sklearn, scipy, matplotlib, seaborn, pickle    
 **Modules:** dendrogram, linkage, KMeans, PCA
 
 ## Customer Analytics
