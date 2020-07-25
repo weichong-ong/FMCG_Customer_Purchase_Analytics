@@ -4,6 +4,11 @@
 * Dividing a population of customers into groups that share similar characteristics using K-means clustering techniques combined with principal components analysis
 * Grouping the customer by segments to gain insight into the purchase behavior
 
+
+## Code and Resources used
+Python Version: 
+Packages: pandas, numpy, sklearn, scipy, matplotlib, seaborn, pickle
+
 ## Exploration Data Analysis
 
 
