@@ -37,7 +37,8 @@ Customer data features: 2000 Obeservations
 ### Visualization
 Pearson correlation method (linear dependency between variables) was used to explore how the variables correlate, in order to get an initial understanding of the relationship between them 
 * There is a strong positive correlation between age and education of a value of 0.65 and between income and occupation of a value of 0.68
-![alt text]()
+
+![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/EDA_Corr_Map.png "Correlation Heatmap")
 
 ### Customer segmentation
 #### Data Preprocessing - Standardization
