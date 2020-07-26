@@ -25,7 +25,7 @@ Purchase Analytics: The second part of the course explores both the descriptive 
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pickle     
 **Modules:** StandardScaler, KMeans, PCA
 
-## Customer Analytics
+## Customer Analytics - Segmentation
 ### Exploration Data Analysis
 Customer data features: 2000 Obeservations
 * Sex
@@ -84,7 +84,9 @@ The division of the segments based on the components is much more pronounced wit
 
 ![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/CS_Kmeans_PCA.png)
 
-## Purchase Analytics
+## Purchase Analytics - Positioning
+Sales promotions: Merchandising, price reduction, display and feature  
+
 ### Data Preprocessing
 ### Descriptive analysis
 
