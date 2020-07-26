@@ -61,8 +61,7 @@ Results - four clusters:
 * standard: Youngest segment, people in relationships, medium level of education, average income and middle management jobs, largest segment   
 * career focused: Mostly men, less than 20% in relationships, relatively low education level, high income and occupation, majority live in big and middle size cities  
 
-CS_Kmeans
-![alt text]()
+![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/CS_Kmeans.png)
 
 #### Dimensionality Reduction - PCA
 Three components was chosen as I wanted to keep around 80 % of the explained variance  
@@ -70,8 +69,7 @@ Three components was chosen as I wanted to keep around 80 % of the explained var
 * Component 2 doesn't refer to the career but rather to an individual's education and lifestyle.
 * Age, marital status and occupations are the most important determinants in the component 3. These indicate the work experience and life experience.
 
-CS_PCA
-![alt text]()
+![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/CS_Kmeans_PCA.png)
 
 #### K-means clustering with PCA
 I fitted K-means using the PCA scores and created a K-means-PCA-model with 4 clusters.
@@ -83,8 +81,8 @@ Results:
 * 'standard' segment: low 1:career and 3:experience while normal to high 2:education and lifestyle  
 
 The division of the segments based on the components is much more pronounced with the help of PCA by reducing the number of variables by combining them into bigger, more meaningful features.  
-CS_Kmeans_PCA
-![alt text]()
+
+![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/CS_Kmeans_PCA.png)
 
 ## Purchase Analytics
 ### Data Preprocessing
