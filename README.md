@@ -22,8 +22,9 @@ Purchase Analytics: The second part of the course explores both the descriptive 
 
 ## Code and Resources used
 **Python Version:** 3.8   
-**Packages:** pandas, numpy, sklearn, scipy, matplotlib, seaborn, pickle    
-**Modules:** dendrogram, linkage, KMeans, PCA
+**Packages:** pandas, numpy, scipy, sklearn, matplotlib, seaborn, pickle    
+**Modules:** sklearn.preprocessing  
+**Classes:** StandardScaler, dendrogram, linkage, KMeans, PCA
 
 ## Customer Analytics
 ### Exploration Data Analysis
@@ -36,17 +37,20 @@ Customer data features: 2000 Obeservations
 * Occupation
 * Settlement Size
 
-### Visualization
-Pearson correlation method (linear dependency between variables) was used to explore how the variables correlate, in order to get an initial understanding of the relationship between them 
-* There is a strong positive correlation between age and education of a value of 0.65 and between income and occupation of a value of 0.68
+#### Visualization
+Pearson correlation method (linear dependency between variables) was used to explore how the variables correlate, in order to get an initial understanding of the relationship between them.  
+The first step to identifying similar consumers and putting them together in group.  
+* There is a strong positive correlation between age and education of a value of 0.65, between income and occupation of a value of 0.68 and between occupation and settlement size of 0.57
 
 ![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/EDA_Corr_Map.png)
 
-### Customer segmentation
-#### Data Preprocessing - Standardization
-Standardizing data using StandardScaler, so that all features have equal weight as I didn't wanted to create bias due to the large values of 'Income'.
+### Data Preprocessing
+#### Standardization
+Standardizing data using StandardScaler, so that all features have equal weight as I didn't wanted to create bias due to the large values of 'Income'.  
+Transforming the features in such a way that their values fall within the same numerical range.  
 * StandardScaler removes the mean and scales each feature/variable to unit variance. This operation is performed feature-wise in an independent way.
 * StandardScaler can be influenced by outliers (if they exist in the dataset) since it involves the estimation of the empirical mean and standard deviation of each feature.
+### Customer segmentation
 #### Cluster Analysis - K-means
 #### Dimensionality Reduction - PCA
 
