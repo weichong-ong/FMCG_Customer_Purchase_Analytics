@@ -90,6 +90,33 @@ Sales promotions: Merchandising, price reduction, display and feature
 * I applied the segmentation model (scaler.pickle, pca.pickle, kmeans_pca.pickle) to the new dataset (purchase_data.csv) in order to place new customers into clusters.  
 
 ### Descriptive analysis
+* Grouped the data by individual and then by segments to gain insight into customer shopping habits.
+* Identified how often each segment group go shopping, how much money they spend and what products they purchase.
+  * Total number of visits for each segment 
+  * Total number of purchases for each segment 
+  * Brand choice for each segment 
+  * Rrevenue for each brand for each segment
+
+![alt text]()
+![alt text]()
+
+* The 'career-focused' segment visits the store and buy products most ofthen. However the standard deviation amongst customers is the highest. This implies that the customers in this segment are at least homogenous, that is least alike when it comes to how often they visit the grocery store and buy products. 
+* The most homogenous segments appears to be that of the 'fewer-opportunities' segment.
+
+![alt text]()
+* The five beands are arranged in ascending order of price
+* Almost 70% of the 'fewer-opportunities' segment chooses Brand_2 chocolate
+* 63% of the 'career-focused' segment buys Brand_5 chocolate which is the most expensive brand. This indicates that people of this segment is looking for some kind of luxury status. This may be an opportunity to raise the price of Brand_5 even further
+* The price of the chocolate bars isn't waht matters the most to the customers
+* 'standard' segment is the most heterogeneous segment. Try to influence them to try different brands might be a good idea in order to gain actaionable insignt.
+
+![alt text]()
+* Apparently even though 'career focused' segment is the second largest, it brings the highest revenue. It seems that they are by far the most prominent segment for the store with regard to chocolate candy bars.
+* The standard is almost equal in size but it brings less than half that revenue.
+* The 'well-off' and the 'fewer-opportunities' segments spend around the same amount of money on chocolate candy bars with the note that the latter is twice the size of the former. 
+* Possible marketing strategies:
+  * If Brand_3 reduces its price, 'standard' segment could pivot towards it.
+  * Brand_4 could try cautiously increasing its price as 'well-off' segment seem to be loyal to this brand and not really affected by price. Most of the customers could be retained and reveneu per sale could be increased.
 
 ### Elasticity Modeling
 #### Price Elasticity of Purchase Probability
