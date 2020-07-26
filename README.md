@@ -108,7 +108,7 @@ Sales promotions: Merchandising, price reduction, display and feature
 * Almost 70% of the 'fewer-opportunities' segment chooses Brand_2 chocolate
 * 63% of the 'career-focused' segment buys Brand_5 chocolate which is the most expensive brand. This indicates that people of this segment is looking for some kind of luxury status. This may be an opportunity to raise the price of Brand_5 even further
 * The price of the chocolate bars isn't waht matters the most to the customers
-* 'standard' segment is the most heterogeneous segment. Try to influence them to try different brands might be a good idea in order to gain actaionable insignt.
+* The 'standard' segment is the most heterogeneous segment. Try to influence them to try different brands might be a good idea in order to gain actaionable insignt.
 
 ![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/DA_Revenue.png)
 * Apparently even though 'career focused' segment is the second largest, it brings the highest revenue. It seems that they are by far the most prominent segment for the store with regard to chocolate candy bars.
