@@ -1,6 +1,6 @@
 # Customer Analytics and Purchase Analytics Project Overview
 
-* Make sure all the files in the local disk are up-to-date: (pull all the file from master)
+* Make sure all the files in the local disk are up-to-date: (pull all the file from master or other branch)
   * git pull
 
 * Every time starts a new task: create new branch for this particular task (instead of push all the file to master)
