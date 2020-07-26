@@ -55,17 +55,39 @@ I calculated the within cluster sum of squares (WCSS) for each of the clustering
 k-means++ algorithm was used to find the best starting points for the centroid.  
 Elbow method was used to determine the number of clusters.  
 
-Results - 4 clusters:
+Results - four clusters:
 * well-off: Oldest segment, more than 2/3 are in relationships, highest level of education and income, smallest segment    
 * fewer-opportunities: Mostly single, people in thier thirties, relatively low education level and income, live in small cities  
 * standard: Youngest segment, people in relationships, medium level of education, average income and middle management jobs, largest segment   
 * career focused: Mostly men, less than 20% in relationships, relatively low education level, high income and occupation, majority live in big and middle size cities  
 
+CS_Kmeans
 ![alt text]()
 
 #### Dimensionality Reduction - PCA
+Three components was chosen as I wanted to keep around 80 % of the explained variance  
+* There is a positive correlation between component 1 and age, income, occupation and settlement size. Thus, this component shows the career focus of the individual. 
+* Component 2 doesn't refer to the career but rather to an individual's education and lifestyle.
+* Age, marital status and occupations are the most important determinants in the component 3. These indicate the work experience and life experience.
+
+CS_PCA
+![alt text]()
+
+#### K-means clustering with PCA
+I fitted K-means using the PCA scores and created a K-means-PCA-model with 4 clusters.
+
+Results:
+* 'well-off' segment is highest on all three components (1:career, 2:education and lifestyle and 3:experience)  
+* 'fewer-opportunities' segment: the lowest average PCA scores for 1:career, 2:education and lifestyle but high on 3:experience  
+* 'career-focused' segment: high PCA scores for 1:career, but low for 2:education and lifestyle, independent from 3:experience  
+* 'standard' segment: low 1:career and 3:experience while normal to high 2:education and lifestyle  
+
+The division of the segments based on the components is much more pronounced with the help of PCA by reducing the number of variables by combining them into bigger, more meaningful features.  
+CS_Kmeans_PCA
+![alt text]()
 
 ## Purchase Analytics
+### Data Preprocessing
 ### Descriptive analysis
 
 ### Elasticity Modeling
