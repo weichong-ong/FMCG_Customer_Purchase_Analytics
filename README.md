@@ -1,14 +1,16 @@
 # Customer Analytics and Purchase Analytics Project Overview
 
-Make sure all the files in the local disk are up-to-date: (pull all the file from master)
-		git pull
+* Make sure all the files in the local disk are up-to-date: (pull all the file from master)
+  * git pull
 
-Every time starts a new task: create new branch for this particular task (instead of push all the file to master)
-		git checkout -b branch_name
+* Every time starts a new task: create new branch for this particular task (instead of push all the file to master)
+  * git checkout -b branch_name
 
-git add .
-git commit -m “comments”
-git push (git push —set-upstream origin branch_name)
+* Switch to this branch: 
+  * git checkout Customer_Analytics
+* git add .
+* git commit -m “comments”
+* git push (git push —set-upstream origin branch_name)
 
 Customer Analytics: The first part of the course focuses on how to perform customer segmentation, using a hands-on approach. It involves the application of hierarchical and flat clustering techniques for dividing customers into groups. It also features applying the Principal Components Analysis (PCA) to reduce the dimensionality of the problem, as well as combining PCA and K-means for an even more professional customer segmentation.
 
