@@ -22,9 +22,8 @@ Purchase Analytics: The second part of the course explores both the descriptive 
 
 ## Code and Resources used
 **Python Version:** 3.8   
-**Packages:** pandas, numpy, scipy, sklearn, matplotlib, seaborn, pickle    
-**Modules:** sklearn.preprocessing  
-**Classes:** StandardScaler, dendrogram, linkage, KMeans, PCA
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pickle     
+**Modules:** StandardScaler, KMeans, PCA
 
 ## Customer Analytics
 ### Exploration Data Analysis
@@ -52,6 +51,18 @@ Transforming the features in such a way that their values fall within the same n
 * StandardScaler can be influenced by outliers (if they exist in the dataset) since it involves the estimation of the empirical mean and standard deviation of each feature.
 ### Customer segmentation
 #### Cluster Analysis - K-means
+I calculated the within cluster sum of squares (WCSS) for each of the clustering solutions and used the WCSS values to determine the best clustering solution.  
+k-means++ algorithm was used to find the best starting points for the centroid.  
+Elbow method was used to determine the number of clusters.  
+
+Results - 4 clusters:
+* well-off: Oldest segment, more than 2/3 are in relationships, highest level of education and income, smallest segment    
+* fewer-opportunities: Mostly single, people in thier thirties, relatively low education level and income, live in small cities  
+* standard: Youngest segment, people in relationships, medium level of education, average income and middle management jobs, largest segment   
+* career focused: Mostly men, less than 20% in relationships, relatively low education level, high income and occupation, majority live in big and middle size cities  
+
+![alt text]()
+
 #### Dimensionality Reduction - PCA
 
 ## Purchase Analytics
