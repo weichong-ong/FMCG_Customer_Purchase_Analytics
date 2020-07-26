@@ -86,8 +86,9 @@ The division of the segments based on the components is much more pronounced wit
 
 ## Purchase Analytics - Positioning
 Sales promotions: Merchandising, price reduction, display and feature  
-
 ### Data Preprocessing
+* I applied the segmentation model (scaler.pickle, pca.pickle, kmeans_pca.pickle) to the new dataset (purchase_data.csv) in order to place new customers into clusters.  
+
 ### Descriptive analysis
 
 ### Elasticity Modeling
