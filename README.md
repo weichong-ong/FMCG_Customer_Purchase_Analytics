@@ -69,7 +69,7 @@ Three components was chosen as I wanted to keep around 80 % of the explained var
 * Component 2 doesn't refer to the career but rather to an individual's education and lifestyle.
 * Age, marital status and occupations are the most important determinants in the component 3. These indicate the work experience and life experience.
 
-![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/CS_Kmeans_PCA.png)
+![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/CS_PCA.png)
 
 #### K-means clustering with PCA
 I fitted K-means using the PCA scores and created a K-means-PCA-model with 4 clusters.
