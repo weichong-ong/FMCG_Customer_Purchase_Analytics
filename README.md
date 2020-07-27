@@ -92,10 +92,12 @@ Sales promotions: Merchandising, price reduction, display and feature
 ### Descriptive analysis
 * Grouped the data by individual and then by segments to gain insight into customer shopping habits.
 * Identified how often each segment group go shopping, how much money they spend and what products they purchase.
+* # I displayed the standard deviation as a straight line. The bigger the length, the higher the standard deviation is.
+
   * Total number of visits for each segment 
   * Total number of purchases for each segment 
   * Brand choice for each segment 
-  * Rrevenue for each brand for each segment
+  * Revenue for each brand for each segment
 
 ![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/DA_Num_Visits.png)
 ![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/DA_Num_Purchases.png)
