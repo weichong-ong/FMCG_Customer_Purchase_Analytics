@@ -24,6 +24,7 @@ Purchase Analytics: The second part of the course explores both the descriptive 
 **Python Version:** 3.8   
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pickle     
 **Modules:** StandardScaler, KMeans, PCA
+**Datasets (~15000 rows):** Udemy course - Customer Analytics in Python 2020
 
 ## Customer Analytics - Segmentation
 ### Exploration Data Analysis
@@ -123,7 +124,7 @@ Sales promotions: Merchandising, price reduction, display and feature
 ### Elasticity Modeling
 Price Elasticity, E = % Change in economic outcome of interest (Units sold) / 1% change in price  
 E = Y%/P%
-#### Price Elasticity of Purchase Probability
+#### Price Elasticity of Purchase Probability (Binomial Logistic Regression)
 E = delta(Pr(purchase))/Pr(purchase) / delta(price)/price  
 E = beta * price * (1-Pr(purchase)) 
 * The decrease in price is slow in the range between 0.5 to 1.1 and then it becomes steeper after the 1.1 mark  
@@ -155,9 +156,19 @@ Fewer oppurnities segment:
 ![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/DA_Brand_Choice.png)
 
 * The well-off segment are the least elastic when compared to the rest, so, their purchase probability elasticity is not as affected by price.
-* The price elasticities for the Standard segment seem to differ across price range. This may be due to the fact that the standard segment is least homogenous, which we discovered during our descriptive analysis. It may be that the customers in this segment have different shopping habbits, which is why their customers start with being more elastic than average but then shift to being more inelastic than the average customer
+* The price elasticities for the Standard segment seem to differ across price range. This may be due to the fact that the standard segment is least homogenous, which we discovered during our descriptive analysis. It may be that the customers in this segment have different shopping habbits, which is why their customers start with being more elastic than average but then shift to being more inelastic than the average customer  
 
-#### Price Elasticity of Brand Choice Probability
+Insert 'Price Elasticity of purchase probability with and without promotion' picture here
+* Customers are less price sensitive to price changes when there are promotion activities
+#### Price Elasticity of Brand Choice Probability (Multinomial Logistic Regression)
+* Coef_Brand_1: The more the price of a competitor increases, the higher the probability of customers switching to our own brand would be, except Price_5. There is a positive relationship between our own brands purchase probability and a competitive brand increasing their price 
+* Own brand effects and Cross brand effects: A marketing mix tool of our brand reflects not only the choice probability for that brand but the choice probabilities for all other brands as well.
+* What would happen to the purchase probability of brand 5 if a competitor changed their pricing? Compared with the brand with the closest price (Cross Price Elasticity)
 E = -beta(own price) * price(cross brand) * Pr(cross brand)
-#### Price Elasticity of Purchase Quantity
+* This indicates that if competitor brand 4 increases prices, the purchase probability for our own brand would increase. Elasticity show us exactly how much more. 
+* E(cross brand) > 0   -> Brands are substitutes for one another
+* |E(cross brand)| > |E(own brand)|   -> The alternative brand is considered a strong substitute (Brand 4 is a strong substitute for brand 5 for all price up to 1.65)
+* However, price range of brand 4 is between 1.76 and 2.26. At this price range, the elasticity is positive. Brand 5 purchase probability still increases with the increase in price of brand 4, but at a slower rate.
+* We can conclude that when it comes to the average customer, brand 4 is an albeit weak substitute for brand 5. In light of these results, brand 5 can create a marketing strategy for targeting customers which choose brand 4 and attract them to buy the own brand. However, targeting the average customer can be a laboursome task. No brand can make everyone happy but a brand can make a certain customer segement happy -> Own and cross price elasticities by customer segments
+#### Price Elasticity of Purchase Quantity (Multiple Linear Regression)
 E = beta * price / Quantity(purchase)
