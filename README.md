@@ -121,6 +121,24 @@ Sales promotions: Merchandising, price reduction, display and feature
   * Brand_4 could try cautiously increasing its price as 'well-off' segment seem to be loyal to this brand and not really affected by price. Most of the customers could be retained and reveneu per sale could be increased.
 
 ### Elasticity Modeling
+Price Elasticity, E = % Change in economic outcome of interest (Units sold) / 1% change in price  
+E = Y%/P%
 #### Price Elasticity of Purchase Probability
+E = delta(Pr(purchase))/Pr(purchase) / delta(price)/price  
+E = beta * price * (1-Pr(purchase)) 
+* The decrease in price is slow in the range between 0.5 to 1.1 and then it becomes steeper after the 1.1 mark  
+* The price elasticities are all negative because the model price coefficient is negative with -2.35. It indicates the inverse proportionality between price and purchase probability  
+* If the percent change in price is greater than 100%, the purchase probability is elastic. For changes less than 100%, it is inelastic (inelastic: |E|<1)
+* 1.10 point: For each increase in price by 1%, the probability of purchase will decrease by -0.69%
+* The important observation here is that an increase of 1% in elasticity leads to a decrease of less than 1%. Therefore, purchase probability at this point is inelastic. 
+* 1.50 point: The elasticity is -1.7. An increase of 1% in price would translate into a decline of -1.7% of purchase probability. Therefore, an increase of 1% will lead to a decrease of almost 2% in purchase probabillity. In this case, purchas probability is elastic.
+* For inelastic values, we increase price as it wouldn't cause a significant decrease in purcahse probability
+* For elastic values, we decrease price
+* In the graph, it starts from being inelastic and then swiches to being elastic. This happens at the 1.25 price point.
+* Conclusion: With the prices lower than 1.25, we can increase our product price without losing too much in terms of purchase probability. For prices higher than 1.25, we have more to gain by reducing our price.
+
+Purchase elasticities by segments
 #### Price Elasticity of Brand Choice Probability
+E = -beta(own price) * price(cross brand) * Pr(cross brand)
 #### Price Elasticity of Purchase Quantity
+E = beta * price / Quantity(purchase)
