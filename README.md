@@ -138,6 +138,7 @@ E = beta * price * (1-Pr(purchase))
 * Conclusion: With the prices lower than 1.25, we can increase our product price without losing too much in terms of purchase probability. For prices higher than 1.25, we have more to gain by reducing our price.
 
 Purchase elasticities by segments
+Career focused segment: smaller coefficient -> this segment is less elastic than the average customer
 #### Price Elasticity of Brand Choice Probability
 E = -beta(own price) * price(cross brand) * Pr(cross brand)
 #### Price Elasticity of Purchase Quantity
