@@ -138,6 +138,8 @@ E = beta * price * (1-Pr(purchase))
 * Conclusion: With the prices lower than 1.25, we can increase our product price without losing too much in terms of purchase probability. For prices higher than 1.25, we have more to gain by reducing our price.
 
 Purchase elasticities by segments
+Insert 'Price_Elasticity_of_Purchase_Probability' picture here
+
 Career focused segment: 
 * smaller coefficient -> this segment is less elastic than the average customer
 * At 1.39 price point, they become inelastic, which is 14 cents higher than the average turning point.
@@ -151,6 +153,9 @@ Fewer oppurnities segment:
 * Theory 2: This segment enjoys candy bars so much that a price increase in the lowe price range doesn't affect them. However, once it starts becoming expensive, it does not make any financial sense to them to invest in it
 * These results confirm in a way what we've observed during the descriptive analysis of the data. Additionally, we've obtained exact values of how purchase probability changes with the change in price
 ![alt text](https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/DA_Brand_Choice.png)
+
+* The well-off segment are the least elastic when compared to the rest, so, their purchase probability elasticity is not as affected by price.
+* The price elasticities for the Standard segment seem to differ across price range. This may be due to the fact that the standard segment is least homogenous, which we discovered during our descriptive analysis. It may be that the customers in this segment have different shopping habbits, which is why their customers start with being more elastic than average but then shift to being more inelastic than the average customer
 
 #### Price Elasticity of Brand Choice Probability
 E = -beta(own price) * price(cross brand) * Pr(cross brand)
