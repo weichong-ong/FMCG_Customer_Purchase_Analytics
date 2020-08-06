@@ -183,4 +183,4 @@ E = beta * price / Quantity(purchase)
 * Customers are a tiny bit more elastic when there is a promotion. However, overall customers are inelastic towards purchase quantity for all prices from 0.5-2.7
 * The two lines practically overlap at many of the price points. The reason might be that the variables we included in our model hold no predictive value. Therefore, it might seem like it doesn't really make sense to focus too much on the purchase quantity. Neither price nor promotions shifts appear to affect the customer decisions.
 * Alternatively, calculate price elasticity of purchase quantity for each brand. 
-
+Insert pic 'Price Elasticity of Purchase Quantity with Promotion'
