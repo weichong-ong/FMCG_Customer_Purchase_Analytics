@@ -12,16 +12,16 @@ Purchase Analytics: I carried out descriptive and predictive analysis of the pur
 
 ## Customer Analytics - Segmentation
 ### Exploration Data Analysis
-I used Pearson correlation method (linear dependency between variables) to explore how the variables correlate, in order to get an initial understanding of the relationship between them.  
+Used Pearson correlation method (linear dependency between variables) to explore how the variables correlate, in order to get an initial understanding of the relationship between them.  
 
 <p float="left">
   <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/EDA_Corr_Map.png" width="470" />
 </p>
 
 ### Data Preprocessing
-I standardized data using StandardScaler, so that all features have equal weight.  
+Standardized data using StandardScaler, so that all features have equal weight.  
 ### Customer segmentation - K-means clustering with PCA
-I fitted K-means using the PCA scores and created a K-means-PCA-model with 4 clusters.
+Fitted K-means using the PCA scores and created a K-means-PCA-model with 4 clusters.
 
 <p float="left">
   <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/CS_Kmeans_PCA.png" width="470" />
@@ -29,12 +29,12 @@ I fitted K-means using the PCA scores and created a K-means-PCA-model with 4 clu
 
 ## Purchase Analytics - Positioning
 ### Data Preprocessing
-I applied the segmentation model (scaler.pickle, pca.pickle, kmeans_pca.pickle) to the new dataset (purchase_data.csv) in order to group new customers into clusters.  
+Applied the segmentation model (scaler.pickle, pca.pickle, kmeans_pca.pickle) to the new dataset (purchase_data.csv) in order to group new customers into clusters.  
 
 ### Descriptive analysis
 * Grouped the data by individual and then by segments to gain insight into customer shopping habits.
 * Identified how often each segment group go shopping, how much money they spend and what products they purchase.
-* I displayed the standard deviation as a straight line. The bigger the length, the higher the standard deviation is.
+* Displayed the standard deviation as a straight line. The bigger the length, the higher the standard deviation is.
 
 <p float="left">
   <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/DA_Num_Visits.png" width="470" />
@@ -48,7 +48,8 @@ I applied the segmentation model (scaler.pickle, pca.pickle, kmeans_pca.pickle) 
 ### Elasticity Modeling
 Price Elasticity, E = % Change in economic outcome of interest (Units sold) / 1% change in price  
 #### Price Elasticity of Purchase Probability
-I used binomial logistic regression model to determine the probability of purchase where the dependant variable is based on the average price of chocolate candy bars. Furthermore, I calculated the price elasticity of purchase probability by segment as well as analyzed the influence of promotion activities.
+* Used binomial logistic regression model to determine the probability of purchase where the dependant variable is based on the average price of chocolate candy bars. 
+* Calculated the price elasticity of purchase probability by segment as well as analyzed the influence of promotion activities.
 
 E = beta * price * (1-Pr(purchase)) 
 * |E|<1: inelastic -> increase price
@@ -60,7 +61,8 @@ E = beta * price * (1-Pr(purchase))
 </p>
 
 #### Price Elasticity of Brand Choice Probability
-I applied multinomial logistic regression model to predict brand choice probability based on the prices for the five brands. Additionally, I compared own price brand choice elasticity with cross price brand choice elasticity by customer segments.
+* Applied multinomial logistic regression model to predict brand choice probability based on the prices for the five brands. 
+* Compared own price brand choice elasticity with cross price brand choice elasticity by customer segments.
 
 E = -beta(own price) * price(cross brand) * Pr(cross brand)
 * E(cross brand) > 0   -> Brands are substitutes for one another
@@ -71,7 +73,8 @@ E = -beta(own price) * price(cross brand) * Pr(cross brand)
 </p>
 
 #### Price Elasticity of Purchase Quantity / Price Elasticity of Demand
-I implemented multiple linear regression model to predict the purchase quantity by price and promotion features in the model. Lastly, I calculated the price elasticity of purchase quantity with and without active promotional activities for each price point.
+* Implemented multiple linear regression model to predict the purchase quantity by price and promotion features in the model.
+* Calculated the price elasticity of purchase quantity with and without active promotional activities for each price point.
 
 E = beta * price / quantity(purchase)
 <p float="left">
