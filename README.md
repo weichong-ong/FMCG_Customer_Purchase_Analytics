@@ -15,7 +15,7 @@ Purchase Analytics: I carried out descriptive and predictive analysis of the pur
 I used Pearson correlation method (linear dependency between variables) to explore how the variables correlate, in order to get an initial understanding of the relationship between them.  
 
 <p float="left">
-  <img src="ttps://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/EDA_Corr_Map.png" width="470" />
+  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/EDA_Corr_Map.png" width="470" />
 </p>
 
 ### Data Preprocessing
