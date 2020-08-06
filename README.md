@@ -19,7 +19,7 @@ I used Pearson correlation method (linear dependency between variables) to explo
 </p>
 
 ### Data Preprocessing
-I standardized data using StandardScaler, so that all features have equal weight as I didn't wanted to create bias due to the large values of 'Income'.  
+I standardized data using StandardScaler, so that all features have equal weight.  
 ### Customer segmentation - K-means clustering with PCA
 I fitted K-means using the PCA scores and created a K-means-PCA-model with 4 clusters.
 
