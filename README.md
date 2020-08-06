@@ -1,8 +1,8 @@
 # Customer Analytics and Purchase Analytics Project Overview
 
-Customer Analytics: I performed customer segmentation to gain insight into the purchase behavior using K-means clustering techniques combined with principal components analysis to reduce the dimensionality of the problem. 
+**Customer Analytics:** Performed customer segmentation to gain insight into the purchase behavior using K-means clustering techniques combined with principal components analysis to reduce the dimensionality of the problem. 
 
-Purchase Analytics: I carried out descriptive and predictive analysis of the purchase behaviour of customers, including price elasticity modeling for purchase probablity, brand choice (own brand and cross brand effects), and purchase quantity.
+**Purchase Analytics:** Carried out descriptive and predictive analysis of the purchase behaviour of customers, including price elasticity modeling for purchase probablity, brand choice (own brand and cross brand effects), and purchase quantity.
 
 ## Code and Resources
 **Python Version:** 3.8   
