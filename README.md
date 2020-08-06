@@ -15,7 +15,7 @@ Purchase Analytics: I carried out descriptive and predictive analysis of the pur
 I used Pearson correlation method (linear dependency between variables) to explore how the variables correlate, in order to get an initial understanding of the relationship between them.  
 
 <p float="left">
-  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/EDA_Corr_Map.png" width="470" />
+  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/EDA_Corr_Map.png" width="470" />
 </p>
 
 ### Data Preprocessing
@@ -24,7 +24,7 @@ I standardized data using StandardScaler, so that all features have equal weight
 I fitted K-means using the PCA scores and created a K-means-PCA-model with 4 clusters.
 
 <p float="left">
-  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/CS_Kmeans_PCA.png" width="470" />
+  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/CS_Kmeans_PCA.png" width="470" />
 </p>
 
 ## Purchase Analytics - Positioning
@@ -37,12 +37,12 @@ I fitted K-means using the PCA scores and created a K-means-PCA-model with 4 clu
 * I displayed the standard deviation as a straight line. The bigger the length, the higher the standard deviation is.
 
 <p float="left">
-  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/DA_Num_Visits.png" width="470" />
-  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/DA_Num_Purchases.png" width="470" /> 
+  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/DA_Num_Visits.png" width="470" />
+  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/DA_Num_Purchases.png" width="470" /> 
 </p>
 
 <p float="left">
-  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/DA_Brand_Choice.png" width="470" />
+  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/DA_Brand_Choice.png" width="470" />
 </p>
 
 ### Elasticity Modeling
@@ -55,8 +55,8 @@ E = beta * price * (1-Pr(purchase))
 * |E|>1: elastic -> decrease price
 
 <p float="left">
-  <img src="Price_Elasticity_of_Purchase_Probability" width="470" />
-  <img src="Price Elasticity of purchase probability with and without promotion" width="470" />
+  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/PA_Price_Elasticity_of_Purchase_Probability.png" width="470" />
+  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/PA_Price_Elasticity_of_purchase_probability_with_and%20without_promotion.png" width="470" />
 </p>
 
 #### Price Elasticity of Brand Choice Probability
@@ -67,7 +67,7 @@ E = -beta(own price) * price(cross brand) * Pr(cross brand)
 * |E(cross brand)| > |E(own brand)|   -> The alternative brand is considered a strong substitute
 
 <p float="left">
-  <img src="Own and cross price elasticities by customer segments" width="470" />
+  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/PA_Own_and_cross_price%20elasticities_by_customer%20segments.png" width="470" />
 </p>
 
 #### Price Elasticity of Purchase Quantity / Price Elasticity of Demand
@@ -75,5 +75,5 @@ I implemented multiple linear regression model to predict the purchase quantity 
 
 E = beta * price / quantity(purchase)
 <p float="left">
-  <img src="Price_Elasticity_of_Purchase_Quantity_with_and_without_Promotion" width="470" />
+  <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/PA_Price_Elasticity_of_Purchase_Quantity_with_and_without_Promotion.png" width="470" />
 </p>
