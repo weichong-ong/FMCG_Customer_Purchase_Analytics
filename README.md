@@ -8,7 +8,7 @@ Purchase Analytics: I carried out descriptive and predictive analysis of the pur
 **Python Version:** 3.8   
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pickle     
 **Modules:** StandardScaler, KMeans, PCA, LogisticRegression, LinearRegression  
-**Datasets (~15000 rows):** Udemy course - Customer Analytics in Python 2020
+**Datasets (~60000 observations):** Udemy course - Customer Analytics in Python 2020
 
 ## Customer Analytics - Segmentation
 ### Exploration Data Analysis
