@@ -14,7 +14,7 @@
 
 Customer Analytics: The first part of the course focuses on how to perform customer segmentation, using a hands-on approach. It involves the application of hierarchical and flat clustering techniques for dividing customers into groups. It also features applying the Principal Components Analysis (PCA) to reduce the dimensionality of the problem, as well as combining PCA and K-means for an even more professional customer segmentation.
 
-Purchase Analytics: The second part of the course explores both the descriptive and predictive analysis of the purchase behaviour of customers, including models for purchase incidence, brand choice, and purchase quantity. Not only that, but it also covers the application of state-of-the-art deep learning techniques to make predictions using real-world data.
+Purchase Analytics: The second part of the course explores both the descriptive and predictive analysis of the purchase behaviour of customers, including models for purchase incidence, brand choice, and purchase quantity.
 
 * Standardizing data, so that all features have equal weight.
 * Dividing a population of customers into groups that share similar characteristics using K-means clustering techniques combined with principal components analysis
@@ -23,7 +23,7 @@ Purchase Analytics: The second part of the course explores both the descriptive 
 ## Code and Resources used
 **Python Version:** 3.8   
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pickle     
-**Modules:** StandardScaler, KMeans, PCA
+**Modules:** StandardScaler, KMeans, PCA, LogisticRegression, LinearRegression  
 **Datasets (~15000 rows):** Udemy course - Customer Analytics in Python 2020
 
 ## Customer Analytics - Segmentation
@@ -180,3 +180,7 @@ Brand choice analysis:
 * If brand4 were to decrease their price, it would affect the well-off segment but not the career focused. Therefore, a tiny decrease in our pricing would compensate such competitor move. This is extremely important to know because if prices of chocolate candy bars were to drop, we would have space to decrease our price offering while gaining solid market share from the well-off segment and practically retaining our career focused customer base.
 #### Price Elasticity of Purchase Quantity (Multiple Linear Regression)
 E = beta * price / Quantity(purchase)
+* Customers are a tiny bit more elastic when there is a promotion. However, overall customers are inelastic towards purchase quantity for all prices from 0.5-2.7
+* The two lines practically overlap at many of the price points. The reason might be that the variables we included in our model hold no predictive value. Therefore, it might seem like it doesn't really make sense to focus too much on the purchase quantity. Neither price nor promotions shifts appear to affect the customer decisions.
+* Alternatively, calculate price elasticity of purchase quantity for each brand. 
+
