@@ -29,7 +29,7 @@ I fitted K-means using the PCA scores and created a K-means-PCA-model with 4 clu
 
 ## Purchase Analytics - Positioning
 ### Data Preprocessing
-* I applied the segmentation model (scaler.pickle, pca.pickle, kmeans_pca.pickle) to the new dataset (purchase_data.csv) in order to group new customers into clusters.  
+I applied the segmentation model (scaler.pickle, pca.pickle, kmeans_pca.pickle) to the new dataset (purchase_data.csv) in order to group new customers into clusters.  
 
 ### Descriptive analysis
 * Grouped the data by individual and then by segments to gain insight into customer shopping habits.
