@@ -4,7 +4,7 @@ Customer Analytics: I performed customer segmentation to gain insight into the p
 
 Purchase Analytics: I carried out descriptive and predictive analysis of the purchase behaviour of customers, including price elasticity modeling for purchase probablity, brand choice (own brand and cross brand effects), and purchase quantity.
 
-## Code and Resources used
+## Code and Resources
 **Python Version:** 3.8   
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pickle     
 **Modules:** StandardScaler, KMeans, PCA, LogisticRegression, LinearRegression  
