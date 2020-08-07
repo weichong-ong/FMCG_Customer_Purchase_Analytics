@@ -51,9 +51,9 @@ Price Elasticity, E = % Change in economic outcome of interest (Units sold) / 1%
 * Used binomial logistic regression model to determine the probability of purchase where the dependant variable is based on the average price of chocolate candy bars. 
 * Calculated the price elasticity of purchase probability by segment as well as analyzed the influence of promotion activities.
 
-E = beta * price * (1-Pr(purchase)) 
-* |E|<1: inelastic -> increase price
-* |E|>1: elastic -> decrease price
+  E = beta * price * (1-Pr(purchase)) 
+  * |E|<1: inelastic -> increase price
+  * |E|>1: elastic -> decrease price
 
 <p float="left">
   <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/PA_Price_Elasticity_of_Purchase_Probability.png" width="470" />
@@ -64,9 +64,9 @@ E = beta * price * (1-Pr(purchase))
 * Applied multinomial logistic regression model to predict brand choice probability based on the prices for the five brands. 
 * Compared own price brand choice elasticity with cross price brand choice elasticity by customer segments.
 
-E = -beta(own price) * price(cross brand) * Pr(cross brand)
-* E(cross brand) > 0   -> Brands are substitutes for one another
-* |E(cross brand)| > |E(own brand)|   -> The alternative brand is considered a strong substitute
+  E = -beta(own price) * price(cross brand) * Pr(cross brand)
+  * E(cross brand) > 0   -> Brands are substitutes for one another
+  * |E(cross brand)| > |E(own brand)|   -> The alternative brand is considered a strong substitute
 
 <p float="left">
   <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/PA_Own_and_cross_price%20elasticities_by_customer%20segments.png" width="470" />
@@ -76,7 +76,7 @@ E = -beta(own price) * price(cross brand) * Pr(cross brand)
 * Implemented multiple linear regression model to predict the purchase quantity by price and promotion features in the model.
 * Calculated the price elasticity of purchase quantity with and without active promotional activities for each price point.
 
-E = beta * price / quantity(purchase)
+  E = beta * price / quantity(purchase)
 <p float="left">
   <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/PA_Price_Elasticity_of_Purchase_Quantity_with_and_without_Promotion.png" width="470" />
 </p>
