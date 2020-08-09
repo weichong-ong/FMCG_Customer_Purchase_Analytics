@@ -8,7 +8,7 @@
 **Python Version:** 3.8   
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pickle     
 **Modules:** StandardScaler, KMeans, PCA, LogisticRegression, LinearRegression  
-**Datasets (~60000 observations):** Udemy course - Customer Analytics in Python 2020
+**Datasets (~60000 observations):** Udemy - Customer Analytics in Python 2020
 
 ## Customer Analytics - Segmentation
 ### Exploration Data Analysis
