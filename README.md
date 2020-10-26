@@ -4,14 +4,14 @@
 Performed customer segmentation to gain insight into the purchase behavior using K-means clustering techniques combined with principal components analysis to reduce the dimensionality of the problem.
 
 <p align="center">
-  <img src="/.images/CS_Kmeans_PCA.png" width="600" />
+  <img src="/images/CS_Kmeans_PCA.png" width="600" />
 </p>
 
 ## Part II: Purchase Analytics - Positioning
 Carried out descriptive and predictive analysis of the purchase behaviour of customers, including price elasticity modeling for purchase probablity, brand choice (own brand and cross brand effects), and purchase quantity.
 
 <p align="center">
-  <img src="/.images/PA_Price_Elasticity_of_Purchase_Probability.png" width="600" />
+  <img src="/images/PA_Price_Elasticity_of_Purchase_Probability.png" width="600" />
 
 ## Code and Resources
 **Python Version:** 3.8
