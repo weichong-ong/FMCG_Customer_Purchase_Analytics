@@ -1,13 +1,13 @@
 # Customer Purchase Analytics Project Overview
 
-## Part I: Customer Analytics
+## Part I: Customer Analytics - Segmentation
 Performed customer segmentation to gain insight into the purchase behavior using K-means clustering techniques combined with principal components analysis to reduce the dimensionality of the problem. 
 
 <p align="center">
   <img src="https://github.com/Wei-Chong-Eden/Customer_Purchase_Analytics/blob/Customer_Analytics/images/CS_Kmeans_PCA.png" width="600" />
 </p>
 
-## Part II: Purchase Analytics
+## Part II: Purchase Analytics - Positioning
 Carried out descriptive and predictive analysis of the purchase behaviour of customers, including price elasticity modeling for purchase probablity, brand choice (own brand and cross brand effects), and purchase quantity.
 
 <p align="center">
