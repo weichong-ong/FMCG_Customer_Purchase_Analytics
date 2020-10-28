@@ -12,7 +12,7 @@ Carried out descriptive and predictive analysis of the purchase behaviour of cus
 ### Descriptive Analysis
 
 <p align="center">
-  <img src="/images/Pie_Chart_Segment_Proportion.png" width="600" />
+  <img src="/images/Pie_Chart_Segment_Proportion.png" width="400" />
 
 ### Predictive Analysis
 
