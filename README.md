@@ -41,8 +41,11 @@ Price Elasticity, E = % Change in economic outcome of interest (Units sold) / 1%
 
 ## Code and Resources
 **Python Version:** 3.8
+
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, pickle
+
 **Modules:** StandardScaler, KMeans, PCA, LogisticRegression, LinearRegression
+
 **Sources:** Udemy - Customer Analytics in Python 2020
 
 <!--
