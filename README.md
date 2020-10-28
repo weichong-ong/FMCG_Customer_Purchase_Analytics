@@ -9,6 +9,12 @@ Performed customer segmentation to gain insight into the purchase behavior using
 
 ## Part II: Purchase Analytics - Positioning
 Carried out descriptive and predictive analysis of the purchase behaviour of customers, including price elasticity modeling for purchase probablity, brand choice (own brand and cross brand effects), and purchase quantity.
+### Descriptive Analysis
+
+<p align="center">
+  <img src="/images/Pie_Chart_Segment_Proportion.png" width="600" />
+
+### Predictive Analysis
 
 <p align="center">
   <img src="/images/PA_Price_Elasticity_of_Purchase_Probability.png" width="600" />
