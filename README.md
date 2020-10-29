@@ -5,39 +5,69 @@
 </p>
 
 ## Part I: Customer Analytics - Segmentation
-Performed customer segmentation to gain insight into the purchase behavior using K-means clustering techniques combined with principal components analysis to reduce the dimensionality of the problem.
+Customer segmentation to gain insight into the purchase behavior using K-means clustering techniques combined with principal components analysis to reduce the dimensionality of the problem.
 
 ## Part II: Purchase Analytics - Positioning
-Carried out descriptive and predictive analysis of the purchase behaviour of customers, including price elasticity modeling for purchase probablity, brand choice (own brand and cross brand effects), and purchase quantity.
+Descriptive and predictive analysis of the purchase behaviour of customers, including price elasticity modeling for purchase probablity, brand choice (own brand and cross brand effects), and purchase quantity.
 
 ### Descriptive Analysis
-* Grouped the data by individual and then by segments to gain insight into customer shopping habits.
-* Identified how often each segment group go shopping, how much money they spend and what products they purchase.
+* Group the data by individual and then by segments to gain insight into customer shopping habits.
+* Identify how often each segment group go shopping, how much money they spend and what products they purchase.
 
-### Predictive Analysis - Price Elasticity Modeling
-Price Elasticity, E = % Change in economic outcome of interest (Units sold) / 1% change in price
+### Predictive Analysis - Price Elasticity
+* Use binomial logistic regression model to determine the probability of purchase where the dependant variable is based on the average price of the product.
+* Calculate the price elasticity of purchase probability by customer segments as well as analyzed the influence of promotion activities.
+
+Price Elasticity is an important economic and marketing concept that measures how purchasing behavior changes when the price changes. In economics terms, price elasticity stems from the basic economic law of supply and demand.
+Following the law of demand, the cheaper the product the higher the demand. The more expensive the product the lower the demand.
+It is extremely important for business though because there is a sweet spot which maximizes revenue since revenue is equal to the price times units sold.
+We can use this price elasticity concept to find the point at which price times units sold is optimal.
+
+In mathematical terms:
+<img src="https://render.githubusercontent.com/render/math?math=Price\: Elasticity,\: E = \frac{Percent\: change\: in\: economic\: outcome\: of\: interest\: (Units\: sold)}{1\: percent\: change\: in\: price}">
+
+There are two cases of price elasticity:
+1. Own Price Elasticity: We measure the elasticity of one product with respect to itself
+2. Cross Price Elasticity:  We measure the elasticity of one product with respect to the price of another product
 
 #### Price Elasticity of Purchase Probability
-* Used binomial logistic regression model to determine the probability of purchase where the dependant variable is based on the average price of chocolate candy bars.
-* Calculated the price elasticity of purchase probability by segment as well as analyzed the influence of promotion activities.
+Price elasticity shows us how much would the purchase probability decreases when the price increases.
 
-  E = beta * price * (1-Pr(purchase))
+<img src="https://render.githubusercontent.com/render/math?math=E = \frac{\Delta Pr(Purchase)}{\Delta Price} * \frac{Price}{Pr(Purchase)} = \beta * \frac{Price}{Pr(Purchase)}">
+
   * |E|<1: inelastic -> increase price
   * |E|>1: elastic -> decrease price
 
 #### Price Elasticity of Brand Choice Probability
-* Applied multinomial logistic regression model to predict brand choice probability based on the prices for the five brands.
+* Apply multinomial logistic regression model to predict brand choice probability based on the prices for the brands.
 * Compared own price brand choice elasticity with cross price brand choice elasticity by customer segments.
 
-  E = -beta(own price) * price(cross brand) * Pr(cross brand)
+Marketer's efforts are devoted to influencing customers to choose namely their brand over competing brands. If the price of a product from a given brand increases the brand choice probability for that brand decreases. Calculating price elasticity of brand choice for a brand with respect to the price of that brand would show us exactly how much.
+
+The choice probability for any one brand and the choice probabilities for all the other brands are interrelated and a marketing mix tool of our brand reflects not only the choice probability for that brand but the choice probabilities for all other brands as well. These effects are known as **own brand effects** and **cross brand effects**.
+
+If another brand increases its unit price, the brand choice probability of the brand of interest would increase. Price elasticity calculations will show us how much the brand choice profitability of our brand would increase with a 1 percent increase in the price of a competing brand.
+
+**own brand effects**
+
+<img src="https://render.githubusercontent.com/render/math?math=E = \beta(own\: price) * \frac{Price(own\: price)}{Pr(own\: price)}">
+
+**cross brand effects**
+
+<img src="https://render.githubusercontent.com/render/math?math=E = -\beta(own\: price) * \frac{Price(cross\: brand)}{Pr(cross\: brand)}">
+
   * E(cross brand) > 0   -> Brands are substitutes for one another
   * |E(cross brand)| > |E(own brand)|   -> The alternative brand is considered a strong substitute
 
 #### Price Elasticity of Purchase Quantity / Price Elasticity of Demand
-* Implemented multiple linear regression model to predict the purchase quantity by price and promotion features in the model.
-* Calculated the price elasticity of purchase quantity with and without active promotional activities for each price point.
+* Implemente multiple linear regression model to predict the purchase quantity by price and promotion features in the model.
+* Calculate the price elasticity of purchase quantity with and without active promotional activities for each price point.
 
-  E = beta * price / quantity(purchase)
+Following the law of demand, the greater the unit price of a product the lower the quantity that is going to be purchased. Calculating the price elasticities will show us exactly how the purchase quantities move with the change in price.
+
+The percentage change in purchase quantity in response to a one percent change in the unit price of the chosen brand.
+
+<img src="https://render.githubusercontent.com/render/math?math=E = \frac{\Delta Quantity(Purchase)}{\Delta Price} * \frac{Price}{Quantity(Purchase)} = \beta * \frac{Price}{Quantity(Purchase)}">
 
 ## Code and Resources
 **Python Version:** 3.8
@@ -71,4 +101,6 @@ Applied the segmentation model (scaler.pickle, pca.pickle, kmeans_pca.pickle) to
 <p align="center">
   <img src="/images/PA_Price_Elasticity_of_Purchase_Probability.png" width="600" />
 
+Price Elasticity, E = % Change in economic outcome of interest (Units sold) / 1% change in price
+E = beta * price * (1-Pr(purchase))
 -->
