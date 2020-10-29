@@ -1,8 +1,7 @@
 # Customer Purchase Analytics Project Overview
 
-<p align="center">
-  <img src="/images/CS_Kmeans_PCA.png" width="600" />
-</p>
+<img align = "left" width = "400" src="/images/CS_Kmeans_PCA.png">
+<img align = "right" width = "400" src="/images/Cross_Brand_Effect.png">
 
 ## Part I: Customer Analytics - Segmentation
 Customer segmentation to gain insight into the purchase behavior using K-means clustering techniques combined with principal components analysis to reduce the dimensionality of the problem.
@@ -33,8 +32,8 @@ Price elasticity shows us how much would the purchase probability decreases when
 
 <img src="https://render.githubusercontent.com/render/math?math=E = \frac{\Delta Pr(Purchase)}{\Delta Price} * \frac{Price}{Pr(Purchase)} = \beta * \frac{Price}{Pr(Purchase)}">
 
-  * |E|<1: inelastic -> increase price
-  * |E|>1: elastic -> decrease price
+         * |E|<1: inelastic -> increase price
+         * |E|>1: elastic -> decrease price
 
 * Use binomial logistic regression model to determine the probability of purchase where the dependant variable is based on the average price of the product.
 * Calculate the price elasticity of purchase probability by customer segments as well as analyzed the influence of promotion activities.
@@ -54,8 +53,8 @@ If another brand increases its unit price, the brand choice probability of the b
 
 <img src="https://render.githubusercontent.com/render/math?math=E = -\beta(own\: price) * \frac{Price(cross\: brand)}{Pr(cross\: brand)}">
 
-  * E(cross brand) > 0   -> Brands are substitutes for one another
-  * |E(cross brand)| > |E(own brand)|   -> The alternative brand is considered a strong substitute
+         * E(cross brand) > 0   -> Brands are substitutes for one another
+         * |E(cross brand)| > |E(own brand)|   -> The alternative brand is considered a strong substitute
 
 * Apply multinomial logistic regression model to predict brand choice probability based on the prices for the brands.
 * Compared own price brand choice elasticity with cross price brand choice elasticity by customer segments.
