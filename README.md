@@ -1,7 +1,9 @@
 # Customer Purchase Analytics Project Overview
 
-<img align = "left" width = "450" src="/images/CS_Kmeans_PCA.png">
-<img align = "right" width = "450" src="/images/Cross_Brand_Effect.png">
+<p float="left">
+  <img src="/images/CS_Kmeans_PCA.png"" width=450" />
+  <img src="/images/Cross_Brand_Effect.png" width="450" />
+</p>
 
 ## Part I: Customer Analytics - Segmentation
 Customer segmentation to gain insight into the purchase behavior using K-means clustering techniques combined with principal components analysis to reduce the dimensionality of the problem.
@@ -77,6 +79,10 @@ Following the law of demand, the greater the unit price of a product the lower t
 **Sources:** Udemy - Customer Analytics in Python 2020
 
 <!--
+
+<img align = "left" width = "450" src="/images/CS_Kmeans_PCA.png">
+<img align = "right" width = "450" src="/images/Cross_Brand_Effect.png">
+
 ## Customer Analytics - Segmentation
 ### Exploration Data Analysis
 Used Pearson correlation method (linear dependency between variables) to explore how the variables correlate, in order to get an initial understanding of the relationship between them.
