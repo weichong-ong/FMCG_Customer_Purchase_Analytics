@@ -1,7 +1,7 @@
 # Customer Purchase Analytics Project Overview
 
-<img align = "left" width = "400" src="/images/CS_Kmeans_PCA.png">
-<img align = "right" width = "400" src="/images/Cross_Brand_Effect.png">
+<img align = "left" width = "450" src="/images/CS_Kmeans_PCA.png">
+<img align = "right" width = "450" src="/images/Cross_Brand_Effect.png">
 
 ## Part I: Customer Analytics - Segmentation
 Customer segmentation to gain insight into the purchase behavior using K-means clustering techniques combined with principal components analysis to reduce the dimensionality of the problem.
