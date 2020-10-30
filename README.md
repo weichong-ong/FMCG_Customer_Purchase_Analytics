@@ -1,8 +1,8 @@
 # Customer Purchase Analytics Project Overview
 
 <p float="left">
-  <img src="/images/CS_Kmeans_PCA.png"" width=430" />
-  <img src="/images/Cross_Brand_Effect.png" width="430" />
+  <img src="/images/CS_Kmeans_PCA.png"" width=400" />
+  <img src="/images/Cross_Brand_Effect.png" width="400" />
 </p>
 
 ## Part I: Customer Analytics - Segmentation
@@ -44,8 +44,10 @@ Price elasticity shows us how much would the purchase probability decreases when
 
 <img src="https://render.githubusercontent.com/render/math?math=E = \frac{\Delta Pr(Purchase)}{\Delta Price} * \frac{Price}{Pr(Purchase)} = \beta * \frac{Price}{Pr(Purchase)}">
 
-         * |E|<1: inelastic -> increase price
-         * |E|>1: elastic -> decrease price
+Price Elasticity | Action
+--- | ---
+abs(E)<1: inelastic | increase price
+abs(E)>1: elastic  | decrease price
 
 This part includes:
 * Use binomial logistic regression model to determine the probability of purchase where the dependant variable is based on the average price of the product.
@@ -66,8 +68,10 @@ If another brand increases its unit price, the brand choice probability of the b
 
 <img src="https://render.githubusercontent.com/render/math?math=E = -\beta(own\: price) * \frac{Price(cross\: brand)}{Pr(cross\: brand)}">
 
-         * E(cross brand) > 0   -> Brands are substitutes for one another
-         * |E(cross brand)| > |E(own brand)|   -> The alternative brand is considered a strong substitute
+Price Elasticity | Meaning
+--- | ---
+E(cross brand) > 0 | Brands are substitutes for one another
+abs(E(cross brand)) > abs(E(own brand)) | The alternative brand is considered a strong substitute
 
 This part includes:
 * Apply multinomial logistic regression model to predict brand choice probability based on the prices for the brands.
