@@ -62,11 +62,11 @@ If another brand increases its unit price, the brand choice probability of the b
 
 **Own Brand Effects**
 
-<img src="https://render.githubusercontent.com/render/math?math=E_{own\: brand} = \beta(own\: price) * \frac{Price(own\: price)}{Pr(own\: price)}">
+<img src="https://render.githubusercontent.com/render/math?math=E_{own\: brand} = \beta_{own\: brand} * \frac{Price_{own\: brand}}{Pr(own\: brand)}">
 
 **Cross Brand Effects**
 
-<img src="https://render.githubusercontent.com/render/math?math=E_{cross\: brand} = -\beta(own\: price) * \frac{Price(cross\: brand)}{Pr(cross\: brand)}">
+<img src="https://render.githubusercontent.com/render/math?math=E_{cross\: brand} = -\beta_{own\: brand} * \frac{Price_{cross\: brand}}{Pr(cross\: brand)}">
 
 Price Elasticity | Meaning
 --- | ---
@@ -80,7 +80,7 @@ This part includes:
 ### Price Elasticity of Purchase Quantity / Price Elasticity of Demand
 Following the law of demand, the greater the unit price of a product the lower the quantity that is going to be purchased. Calculating the price elasticities will show us exactly how the purchase quantities move with the change in price. The percentage change in purchase quantity in response to a one percent change in the unit price of the chosen brand.
 
-<img src="https://render.githubusercontent.com/render/math?math=E = \frac{\Delta Quantity(Purchase)}{\Delta Price} * \frac{Price}{Quantity(Purchase)} = \beta * \frac{Price}{Quantity(Purchase)}">
+<img src="https://render.githubusercontent.com/render/math?math=E = \frac{\Delta Quantity}{\Delta Price} * \frac{Price}{Quantity} = \beta * \frac{Price}{Quantity}">
 
 This part includes:
 * Implement multiple linear regression model to predict the purchase quantity by price and promotion features in the model.
