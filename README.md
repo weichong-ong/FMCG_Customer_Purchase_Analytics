@@ -12,6 +12,7 @@ Customer segmentation to gain insight into the purchase behavior using K-means c
 Descriptive and predictive analysis of the purchase behaviour of customers, including price elasticity modeling for purchase probablity, brand choice (own brand and cross brand effects), and purchase quantity.
 
 ### Descriptive Analysis
+**This part includes:**
 * Group the data by individual and then by segments to gain insight into customer shopping habits.
 * Identify how often each segment group go shopping, how much money they spend and what products they purchase.
 
@@ -37,6 +38,7 @@ Price elasticity shows us how much would the purchase probability decreases when
          * |E|<1: inelastic -> increase price
          * |E|>1: elastic -> decrease price
 
+**This part includes:**
 * Use binomial logistic regression model to determine the probability of purchase where the dependant variable is based on the average price of the product.
 * Calculate the price elasticity of purchase probability by customer segments as well as analyzed the influence of promotion activities.
 
@@ -58,6 +60,7 @@ If another brand increases its unit price, the brand choice probability of the b
          * E(cross brand) > 0   -> Brands are substitutes for one another
          * |E(cross brand)| > |E(own brand)|   -> The alternative brand is considered a strong substitute
 
+**This part includes:**
 * Apply multinomial logistic regression model to predict brand choice probability based on the prices for the brands.
 * Compared own price brand choice elasticity with cross price brand choice elasticity by customer segments.
 
@@ -66,7 +69,8 @@ Following the law of demand, the greater the unit price of a product the lower t
 
 <img src="https://render.githubusercontent.com/render/math?math=E = \frac{\Delta Quantity(Purchase)}{\Delta Price} * \frac{Price}{Quantity(Purchase)} = \beta * \frac{Price}{Quantity(Purchase)}">
 
-* Implemente multiple linear regression model to predict the purchase quantity by price and promotion features in the model.
+**This part includes:**
+* Implement multiple linear regression model to predict the purchase quantity by price and promotion features in the model.
 * Calculate the price elasticity of purchase quantity with and without active promotional activities for each price point.
 
 ## Code and Resources
