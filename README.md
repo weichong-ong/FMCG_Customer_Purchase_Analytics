@@ -70,8 +70,8 @@ If another brand increases its unit price, the brand choice probability of the b
 
 Price Elasticity | Meaning
 --- | ---
-*E*<sub>cross brand</sub> > 0 | Brands are substitutes for one another
-Absolute *E*<sub>cross brand</sub> > Absolute *E*<sub>own brand</sub> | The alternative brand is considered a strong substitute
+*E<sub>cross brand</sub>* > 0 | Brands are substitutes for one another
+Absolute *E<sub>cross brand</sub>* > Absolute *E<sub>own brand</sub>* | The alternative brand is considered a strong substitute
 
 This part includes:
 * Apply multinomial logistic regression model to predict brand choice probability based on the prices for the brands.
