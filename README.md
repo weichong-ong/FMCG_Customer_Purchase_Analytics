@@ -46,8 +46,8 @@ Price elasticity shows us how much would the purchase probability decreases when
 
 Price Elasticity | Action
 --- | ---
-abs(E)<1: inelastic | increase price
-abs(E)>1: elastic  | decrease price
+Absolute E < 1: inelastic | increase price
+Absolute E > 1: elastic  | decrease price
 
 This part includes:
 * Use binomial logistic regression model to determine the probability of purchase where the dependant variable is based on the average price of the product.
@@ -62,16 +62,16 @@ If another brand increases its unit price, the brand choice probability of the b
 
 **Own Brand Effects**
 
-<img src="https://render.githubusercontent.com/render/math?math=E<sub>own brand/sub> = \beta(own\: price) * \frac{Price(own\: price)}{Pr(own\: price)}">
+<img src="https://render.githubusercontent.com/render/math?math=E_{own\: brand} = \beta(own\: price) * \frac{Price(own\: price)}{Pr(own\: price)}">
 
 **Cross Brand Effects**
 
-<img src="https://render.githubusercontent.com/render/math?math=E<sub>cross brand</sub> = -\beta(own\: price) * \frac{Price(cross\: brand)}{Pr(cross\: brand)}">
+<img src="https://render.githubusercontent.com/render/math?math=E_{cross\: brand} = -\beta(own\: price) * \frac{Price(cross\: brand)}{Pr(cross\: brand)}">
 
 Price Elasticity | Meaning
 --- | ---
 E<sub>cross brand</sub> > 0 | Brands are substitutes for one another
-abs(E<sub>cross brand</sub>) > abs(E<sub>own brand</sub>) | The alternative brand is considered a strong substitute
+Absolute E<sub>cross brand</sub> > Absolute E<sub>own brand</sub> | The alternative brand is considered a strong substitute
 
 This part includes:
 * Apply multinomial logistic regression model to predict brand choice probability based on the prices for the brands.
