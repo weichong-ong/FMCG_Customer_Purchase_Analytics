@@ -62,16 +62,16 @@ If another brand increases its unit price, the brand choice probability of the b
 
 **Own Brand Effects**
 
-<img src="https://render.githubusercontent.com/render/math?math=E = \beta(own\: price) * \frac{Price(own\: price)}{Pr(own\: price)}">
+<img src="https://render.githubusercontent.com/render/math?math=E<sub>own brand/sub> = \beta(own\: price) * \frac{Price(own\: price)}{Pr(own\: price)}">
 
 **Cross Brand Effects**
 
-<img src="https://render.githubusercontent.com/render/math?math=E = -\beta(own\: price) * \frac{Price(cross\: brand)}{Pr(cross\: brand)}">
+<img src="https://render.githubusercontent.com/render/math?math=E<sub>cross brand</sub> = -\beta(own\: price) * \frac{Price(cross\: brand)}{Pr(cross\: brand)}">
 
 Price Elasticity | Meaning
 --- | ---
-E(cross brand) > 0 | Brands are substitutes for one another
-abs(E(cross brand)) > abs(E(own brand)) | The alternative brand is considered a strong substitute
+E<sub>cross brand</sub> > 0 | Brands are substitutes for one another
+abs(E<sub>cross brand</sub>) > abs(E<sub>own brand</sub>) | The alternative brand is considered a strong substitute
 
 This part includes:
 * Apply multinomial logistic regression model to predict brand choice probability based on the prices for the brands.
